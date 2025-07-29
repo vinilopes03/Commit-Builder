@@ -456,7 +456,7 @@ def main():
     config = PipelineConfig(
         parsed_juliet_dir="/Users/vlopes/Desktop/parsed-juliet",
         commit_repo_dir="/Users/vlopes/Desktop/git-projects/repo-for-test",
-        openai_api_key="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",
+        api_key = os.getenv("OPENAI_API_KEY")
         s2e_project_dir="/Users/vlopes/Desktop/git-projects/Patch-Vul"
     )
     
